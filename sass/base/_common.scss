@@ -11,4 +11,17 @@ h1, h2, h3, p, ul {
     margin: 0;
     list-style: none;
   }
-    
+
+  body {
+    color: var(--main-text-color);
+    margin: 0;
+    background-color: var(--white-color);
+    font-family: var(--main-font);
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
+    font-family: 'Helvetica Neue', 'Roboto', 'Verdana', 'Tahoma', sans-serif;
+  }
+  

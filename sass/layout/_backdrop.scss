@@ -49,13 +49,13 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     cursor: pointer;
-  }
   
+    &:hover .close-button-icon {
+    fill: var(--accent-color)
+  }
+  }
+
   .close-button-icon {
     transition: fill 250ms var(--transition-timing);
-  }
-  
-  .close-button:hover .close-button-icon {
-    fill: var(--accent-color)
   }
   

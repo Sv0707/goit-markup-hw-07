@@ -15,10 +15,14 @@
     transition: background-color 250ms var(--transition-timing);
   }
   
-  .social-links__item:not(:last-child) {
+  
+  .social-links__item{
+      
+    &:not(:last-child) {
     margin-right: 10px;
   }
   
+  }
   .social-links__icon {
     transition: fill 250ms var(--transition-timing);
   }
@@ -27,17 +31,19 @@
     fill: #AFB1B8;
   }
   
-  .social-links__link:hover,
-  .social-links__link:focus {
+  .social-links__link {
+  
+  &:hover, &:focus {
     background-color: var(--accent-color);
     cursor: pointer;
   }
   
-  .social-links__link:hover .social-links__icon,
-  .social-links__link:focus .social-links__icon {
+  &:hover .social-links__icon,
+  &:focus .social-links__icon {
     display: block;
     fill: white;
     cursor: pointer;
+  }
   }
   
   .social-links_right-side {
