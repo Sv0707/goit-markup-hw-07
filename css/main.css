@@ -599,7 +599,7 @@ body {
   text-decoration: none;
 }
 
-.footer__itemfirst-child {
+.footer__item:first-child {
   margin-bottom: 9px;
 }
 
