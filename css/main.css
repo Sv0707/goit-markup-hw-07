@@ -22,10 +22,6 @@
   overflow: hidden;
 }
 
-.accent {
-  color: var(--accent-color);
-}
-
 h1, h2, h3, p, ul {
   margin: 0;
   padding: 0;
@@ -49,7 +45,6 @@ body {
   font-size: 14px;
   line-height: 1.71;
   text-decoration: none;
-  font-family: 'Helvetica Neue', 'Roboto', 'Verdana', 'Tahoma', sans-serif;
 }
 
 .container {
@@ -81,6 +76,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
+  color: var(--accent-color);
 }
 
 .logo_black-theme {
@@ -189,6 +185,10 @@ body {
   height: 4px;
   background-color: var(--accent-color);
   border-radius: 2px;
+}
+
+.accent {
+  color: var(--accent-color);
 }
 
 .nav__list {
