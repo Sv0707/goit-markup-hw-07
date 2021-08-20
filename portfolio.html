@@ -7,26 +7,26 @@
     <title>Портфолио</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
 </head>
 <body>
     <!--header section-->
     <header class="header">
       <!--navigation section-->
-      <div class="container">
+      <div class="container header__container">
         <nav class="nav">
-          <a href="./index.html" class="nav-logo logo"
+          <a href="./index.html" class="logo logo_black-theme"
             ><span class="accent">Web</span>Studio
           </a>
-          <ul class="nav-list list">
-            <li class="nav-list__item">
-              <a href="./index.html" class="nav-list__link">Студия</a>
+          <ul class="nav__list list">
+            <li class="nav__item">
+              <a href="./index.html" class="nav__link">Студия</a>
             </li>
-            <li class="nav-list__item">
-              <a href="./portfolio.html" class="nav-list__link current-link accent">Портфолио</a>
+            <li class="nav__item">
+              <a href="./portfolio.html" class="nav__link current-link accent">Портфолио</a>
             </li>
-            <li class="nav-list__item">
-              <a href="" class="nav-list__link">Контакты</a>
+            <li class="nav__item">
+              <a href="" class="nav__link">Контакты</a>
             </li>
           </ul>
         </nav>
@@ -245,51 +245,51 @@
     </main>   
     <!--footer section-->
     <footer class="footer">
-      <div class="container footer-container">
-        <div class="footer-block-address">
-          <a href="./index.html" class="footer-logo logo">
+      <div class="container footer__container">
+        <div class="footer__block-address">
+          <a href="./index.html" class="logo_white-theme logo">
             <span class="accent">Web</span>Studio</a>
-          <address class="footer-address">
+          <address class="footer__address">
               г. Киев, пр-т Леси Украинки, 26
-            <ul class="footer-list list">
-              <li class="footer-list__item">
-                <a href="mailto:info@example.com" class="footer-link"
+            <ul class="footer__list list">
+              <li class="footer__item">
+                <a href="mailto:info@example.com" class="footer__link"
                   >info@example.com</a>
               </li>
-              <li class="footer-list__item">
-                <a href="tel:+380961111111" class="footer-link"
+              <li class="footer__item">
+                <a href="tel:+380961111111" class="footer__link"
                   >+38 096 111 11 11</a>
               </li>
             </ul>
           </address>
         </div>
         <div>
-          <p class="footer-social-list__title">Присоединяйтесь</p>
-          <ul class="social-links-list list footer-social-links-list">
-            <li class="social-links-list__item">
-              <a href="" class="social-links-list__link footer-social-list__link">
-                <svg class="social-links-list__icon footer-social-list__icon" width="20" height="20">
+          <p class="footer__title">Присоединяйтесь</p>
+          <ul class="social-links list social-links_right-side">
+            <li class="social-links__item">
+              <a href="" class="social-links__link social-links__link_background-dark">
+                <svg class="social-links__icon social-links__icon_white-color" width="20" height="20">
                   <use href="./images/svg-sprite.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="social-links-list__item">
-              <a href="" class="social-links-list__link footer-social-list__link">
-                <svg class="social-links-list__icon footer-social-list__icon" width="20" height="20">
+            <li class="social-links__item">
+              <a href="" class="social-links__link social-links__link_background-dark">
+                <svg class="social-links__icon social-links__icon_white-color" width="20" height="20">
                   <use href="./images/svg-sprite.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="social-links-list__item">
-              <a href="" class="social-links-list__link footer-social-list__link">
-                <svg class="social-links-list__icon footer-social-list__icon" width="20" height="20">
+            <li class="social-links__item">
+              <a href="" class="social-links__link social-links__link_background-dark">
+                <svg class="social-links__icon social-links__icon_white-color" width="20" height="20">
                   <use href="./images/svg-sprite.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="social-links-list__item">
-              <a href="" class="social-links-list__link footer-social-list__link">
-                <svg class="social-links-list__icon footer-social-list__icon" width="20" height="20">
+            <li class="social-links__item">
+              <a href="" class="social-links__link social-links__link_background-dark">
+                <svg class="social-links__icon social-links__icon_white-color" width="20" height="20">
                   <use href="./images/svg-sprite.svg#icon-linkedin"></use>
                 </svg>
               </a>
@@ -297,7 +297,7 @@
           </ul>
         </div>
         <form class="footer-submit-form">
-          <p class="footer-social-list__title">Подпишитесь на рассылку</p>
+          <p class="footer__title">Подпишитесь на рассылку</p>
           <span class="footer-submit-form__input-wrapper">
             <input
               type="email"
@@ -306,7 +306,7 @@
               required
               placeholder="E-mail"
             />
-            <button type="submit" class="footer-submit-form-button button">
+            <button type="submit" class="footer-submit-form-button">
               <span class="footer-submit-button-text">Подписаться</span>
               <svg class="footer-submit-icon" width="24" height="24">
                 <use href="./images/svg-sprite.svg#icon-telegram"></use>
